@@ -1,6 +1,6 @@
 # Jogo da Memória - Maria Eduarda Edition
 
-Bem-vindo ao** Jogo da Memória - Maria Eduarda Edition**! Este é um projeto especial criado por mi, para homenagear minha filha, Maria Eduarda, de 9 anos. O jogo utiliza HTML, CSS e JavaScript para proporcionar uma experiência divertida e memorável, destacando as fotos engraçadas de Maria Eduarda fazendo caretas.
+Bem-vindo ao **Jogo da Memória - Maria Eduarda Edition**! Este é um projeto especial criado por mi, para homenagear minha filha, Maria Eduarda, de 9 anos. O jogo utiliza HTML, CSS e JavaScript para proporcionar uma experiência divertida e memorável, destacando as fotos engraçadas de Maria Eduarda fazendo caretas.
 
 ## Sobre o Jogo
 
