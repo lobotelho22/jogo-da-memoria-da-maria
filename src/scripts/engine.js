@@ -1,16 +1,16 @@
 const emojis = [
-    "🎱",
-    "🎱",
-    "🔱",
-    "🔱",
-    "🍎",
-    "🍎",
-    "☕",
-    "☕",
-    "🌼",
-    "🌼",
-    "🐇",
-    "🐇"
+    '<img src="src/images/maria_01.png" alt="foto de Maria Eduarda">',
+    '<img src="src/images/maria_01.png" alt="foto de Maria Eduarda">',
+    '<img src="src/images/maria_02.png" alt="foto de Maria Eduarda">',
+    '<img src="src/images/maria_02.png" alt="foto de Maria Eduarda">',
+    '<img src="src/images/maria_03.png" alt="foto de Maria Eduarda">',
+    '<img src="src/images/maria_03.png" alt="foto de Maria Eduarda">',
+    '<img src="src/images/maria_04.png" alt="foto de Maria Eduarda">',
+    '<img src="src/images/maria_04.png" alt="foto de Maria Eduarda">',
+    '<img src="src/images/maria_05.png" alt="foto de Maria Eduarda">',
+    '<img src="src/images/maria_05.png" alt="foto de Maria Eduarda">',
+    '<img src="src/images/maria_06.png" alt="foto de Maria Eduarda">',
+    '<img src="src/images/maria_06.png" alt="foto de Maria Eduarda">',
 ];
 
 let openCards = [];
