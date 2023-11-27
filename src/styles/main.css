@@ -1,4 +1,8 @@
 :root {
+  --body-background-color: #fc1e8a;
+  --button-focus-bg-color: #262809;
+  --button-focus-color: #ec38bc;
+  --button-subtitle-color: #000;
   --container-gradient-bg: linear-gradient(
     325deg,
     #03001e 10%,
@@ -7,25 +11,21 @@
     #fdeff9 100%
   );
   --white-color: #fff;
-  --body-background-color: #fc1e8a;
-  --button-focus-color: #ec38bc;
-  --button-focus-bg-color: #262809;
-  --button-subtitle-color: #000;
 }
 
 body {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 100vh;
   background: var(--body-background-color);
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
   user-select: none;
 }
 
 img {
-    width: 95px;
-    height: 95px;
-    border-radius: 0.3em;
+  border-radius: 0.3em;
+  height: 95px;
+  width: 95px;
 }
 
 .container {
@@ -40,24 +40,24 @@ img {
 }
 
 h2 {
-  font-size: 3em;
   color: var(--white-color);
-  text-transform: uppercase;
+  font-size: 3em;
   letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .reset {
-  padding: 15px 20px;
-  width: 100%;
-  color: var(--button-subtitle-color);
   background-color: var(--white-color);
   border: none;
-  font-size: 1.3em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  color: var(--button-subtitle-color);
   cursor: pointer;
+  font-size: 1.3em;
   font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 15px 20px;
+  text-transform: uppercase;
   user-select: none;
+  width: 100%;
 }
 
 .reset:focus {
@@ -66,40 +66,40 @@ h2 {
 }
 
 .game {
-  width: 430px;
-  height: 430px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  transform-style: preserve-3d;
+  height: 430px;
   perspective: 500px;
+  transform-style: preserve-3d;
+  width: 430px;
 }
 
 .item {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: var(--white-color);
+  border-radius: 0.3em;
+  align-items: center;
+  display: flex;
   font-size: 3em;
+  height: 100px;
+  justify-content: center;
+  position: relative;
   transform: rotateY(180deg);
   transition: 0.8s;
   user-select: none;
-  border-radius: 0.3em;
+  width: 100px;
 }
 
 .item::after {
-  content: "";
-  position: absolute;
-  inset: 0;
+  backface-visibility: hidden;
   background-image: url('../images/cute-monster-1209-650.jpg');
   background-size: contain;
-  transition: 0.5s;
-  transform: rotateY(0deg);
-  backface-visibility: hidden;
   border-radius: 0.3em;
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: rotateY(0deg);
+  transition: 0.5s;
 }
 
 .item.boxOpen {
